@@ -1,14 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nightAtTheMuseum", "Assembly-CSharp.csproj", "{361721A4-B487-F8FC-88D7-A5536B97B633}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nightAtTheMuseum", "Assembly-CSharp-Editor.csproj", "{181B09DC-69C6-B55E-CB49-CF20F7050F32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{361721A4-B487-F8FC-88D7-A5536B97B633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361721A4-B487-F8FC-88D7-A5536B97B633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361721A4-B487-F8FC-88D7-A5536B97B633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361721A4-B487-F8FC-88D7-A5536B97B633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{181B09DC-69C6-B55E-CB49-CF20F7050F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{181B09DC-69C6-B55E-CB49-CF20F7050F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{181B09DC-69C6-B55E-CB49-CF20F7050F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{181B09DC-69C6-B55E-CB49-CF20F7050F32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
