@@ -167,6 +167,10 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrMathHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+     <Compile Include="Assets\iTween.cs" />
+     <Compile Include="Assets\Scripts\FollowNpc.cs" />
+     <Compile Include="Assets\Scripts\RandomMovement.cs" />
+     <Compile Include="Assets\Scripts\WaypointMovement.cs" />
      <Compile Include="Assets\Scripts\Welcome.cs" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
