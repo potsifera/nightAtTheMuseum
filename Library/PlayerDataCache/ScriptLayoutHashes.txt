@@ -103,6 +103,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 6af7378a45ad6da4992a71ef50ddc2eb UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 6af7378a45ad6da4992a71ef50ddc2eb UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 af723155c251fcfa0e66530a75f3ea4c UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+6cdb1385753073e4b6b2fe8f1e64fa42 Assembly-CSharp.dll:.PlayPauseUI
 65ccc5e6c5329a006e5b4f0effd4ff6c Assembly-CSharp.dll:.GvrScrollSettings
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DemoSceneManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ObjectPoolManager
@@ -186,6 +187,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 f40249d641c637ccb025c0e1253e4ac7 Assembly-CSharp.dll:.WaypointMovement
 f12b46990184302ae413ff95cea31566 Assembly-CSharp.dll:.FadeScrollEffect
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ScrubberEvents
+c37a7e7beb8173ad685b0ecf17bd343d Assembly-CSharp.dll:.WorldSpaceVideo
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TileScrollEffect
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.VideoControlsManager
 873bdd597bbca93eeb86bbec65ad3cd1 Assembly-CSharp.dll:.GvrPointerGraphicRaycaster
