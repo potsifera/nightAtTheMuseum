@@ -143,7 +143,6 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 82c4df0703ee0c74fec7eda7f1754686 Assembly-CSharp.dll:.GvrAudioListener
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GvrPointerManager
 07fa47575215f13cb6a7a76ce2f5bb55 Assembly-CSharp.dll:.PrefabPageProvider
-6a1e3beedcb8d388be498626c137622c Assembly-CSharp.dll:.PlayVideos
 19fc27323532d4ef5ff7bd1ed99e59f3 Assembly-CSharp.dll:.GvrTrackedController
 d41e856001c43524a7a52471c8bf3b63 Assembly-CSharp.dll:.GvrLaserPointer
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator

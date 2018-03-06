@@ -341,7 +341,6 @@
     <Compile Include="Assets\iTween.cs" />
     <Compile Include="Assets\PlayPauseUI.cs" />
     <Compile Include="Assets\Scripts\FollowNpc.cs" />
-    <Compile Include="Assets\Scripts\PlayVideos.cs" />
     <Compile Include="Assets\Scripts\RandomMovement.cs" />
     <Compile Include="Assets\Scripts\WaypointMovement.cs" />
     <Compile Include="Assets\WorldSpaceVideo.cs" />
