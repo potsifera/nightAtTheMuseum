@@ -11,12 +11,16 @@ public class WaypointMovement : MonoBehaviour {
 	public bool teleport = true;
 
 	public float maxMoveDistance = 10;
-	private bool moving = false;
+	public Material playMaterial;
+
+	//private bool moving = false;
 
 	private GameObject atmosphericAudio;
 	private AudioSource aAudio;
 	private Object[] videos = {};
+	private Object[] buttons = {};
 	private VideoPlayer myVideo;
+	private Renderer buttonRenderer; 
 
 
 	// Use this for initialization
@@ -52,11 +56,11 @@ public class WaypointMovement : MonoBehaviour {
 			aAudio.Play ();
 		}
 
-		//get the gameObjects
+		//get the gameObjects tagged with video 
 		videos = GameObject.FindGameObjectsWithTag("Video");
-
+		//loops through all the videos
 		foreach(GameObject video in videos)
-		{
+		{  //if the component inside eachobject is playing stop it
 			myVideo = video.GetComponent<VideoPlayer> ();
 			if (myVideo.isPlaying) {
 				myVideo.Pause();
@@ -64,6 +68,15 @@ public class WaypointMovement : MonoBehaviour {
 
 		}
 
+		//get the gameObjects tagged with videobutton
+		buttons = GameObject.FindGameObjectsWithTag("VideoButton");
+		foreach(GameObject button in buttons)
+		{  //assign the playmaterial to all buttons
+			
+			buttonRenderer = button.GetComponent<Renderer> ();
+			buttonRenderer.material = playMaterial;
+
+		}
 	}
 
 }

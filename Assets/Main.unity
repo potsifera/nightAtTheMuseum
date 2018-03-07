@@ -4792,9 +4792,10 @@ GameObject:
   - component: {fileID: 1547211352}
   - component: {fileID: 1547211351}
   - component: {fileID: 1547211350}
+  - component: {fileID: 1547211355}
   m_Layer: 0
   m_Name: CubeVideoButton2
-  m_TagString: Untagged
+  m_TagString: VideoButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4806,7 +4807,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1547211348}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.68, y: 0.61, z: -50.67}
+  m_LocalPosition: {x: -3.68, y: 0.259, z: -50.67}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1218294947}
@@ -4907,6 +4908,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1547211348}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &1547211355
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1547211348}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e9c0218d5c998461bbcf91292de2ccbd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1557318663
 GameObject:
   m_ObjectHideFlags: 0
@@ -5386,9 +5404,10 @@ GameObject:
   - component: {fileID: 1758767309}
   - component: {fileID: 1758767308}
   - component: {fileID: 1758767307}
+  - component: {fileID: 1758767312}
   m_Layer: 0
   m_Name: CubeVideoButton3
-  m_TagString: Untagged
+  m_TagString: VideoButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5501,6 +5520,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1758767305}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &1758767312
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1758767305}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 498999bee31a24b8e81aed32cf208085, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1784652559 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1000010374830658, guid: f8783facabfa448ada6901cd69802d70,
@@ -5617,9 +5653,10 @@ GameObject:
   - component: {fileID: 1830537502}
   - component: {fileID: 1830537501}
   - component: {fileID: 1830537500}
+  - component: {fileID: 1830537505}
   m_Layer: 0
   m_Name: CubeVideoButton4
-  m_TagString: Untagged
+  m_TagString: VideoButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5732,6 +5769,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1830537498}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &1830537505
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1830537498}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b01fdeb48f6f840a98bf13761f6c11c8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1831117745
 GameObject:
   m_ObjectHideFlags: 0
@@ -6781,9 +6835,10 @@ GameObject:
   - component: {fileID: 2007308682}
   - component: {fileID: 2007308681}
   - component: {fileID: 2007308680}
+  - component: {fileID: 2007308685}
   m_Layer: 0
   m_Name: CubeVideoButton1
-  m_TagString: Untagged
+  m_TagString: VideoButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6896,6 +6951,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2007308678}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &2007308685
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2007308678}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0a0e2e6c4f8bc4fbcb098955381e7f27, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &2018736465
 GameObject:
   m_ObjectHideFlags: 0
@@ -6909,9 +6981,10 @@ GameObject:
   - component: {fileID: 2018736469}
   - component: {fileID: 2018736468}
   - component: {fileID: 2018736467}
+  - component: {fileID: 2018736472}
   m_Layer: 0
   m_Name: CubeVideoButton5
-  m_TagString: Untagged
+  m_TagString: VideoButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7024,6 +7097,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018736465}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &2018736472
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018736465}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bbeee18e3cee24dcba71b9118823f6c2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &2035646397
 GameObject:
   m_ObjectHideFlags: 0
@@ -7204,6 +7294,7 @@ MonoBehaviour:
   height: 2
   teleport: 1
   maxMoveDistance: 10
+  playMaterial: {fileID: 2100000, guid: ea48a0516c720b04b9fac01b87bfcb4c, type: 2}
 --- !u!4 &2066298286
 Transform:
   m_ObjectHideFlags: 0
