@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Video;
 
 public class WaypointMovement : MonoBehaviour {
 	
@@ -14,6 +15,8 @@ public class WaypointMovement : MonoBehaviour {
 
 	private GameObject atmosphericAudio;
 	private AudioSource aAudio;
+	private Object[] videos = {};
+	private VideoPlayer myVideo;
 
 
 	// Use this for initialization
@@ -48,6 +51,19 @@ public class WaypointMovement : MonoBehaviour {
 		if (!aAudio.isPlaying) {
 			aAudio.Play ();
 		}
+
+		//get the gameObjects
+		videos = GameObject.FindGameObjectsWithTag("Video");
+
+		foreach(GameObject video in videos)
+		{
+			myVideo = video.GetComponent<VideoPlayer> ();
+			if (myVideo.isPlaying) {
+				myVideo.Pause();
+			}
+
+		}
+
 	}
 
 }

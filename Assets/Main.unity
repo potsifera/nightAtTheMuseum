@@ -3894,7 +3894,7 @@ GameObject:
   - component: {fileID: 1250192397}
   m_Layer: 0
   m_Name: VideoPlayer4
-  m_TagString: Untagged
+  m_TagString: Video
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5818,7 +5818,7 @@ GameObject:
   - component: {fileID: 1835662863}
   m_Layer: 0
   m_Name: VideoPlayer5
-  m_TagString: Untagged
+  m_TagString: Video
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7109,7 +7109,7 @@ GameObject:
   - component: {fileID: 2036665942}
   m_Layer: 0
   m_Name: VideoPlayer3
-  m_TagString: Untagged
+  m_TagString: Video
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7302,7 +7302,7 @@ GameObject:
   - component: {fileID: 2082116459}
   m_Layer: 0
   m_Name: VideoPlayer1
-  m_TagString: Untagged
+  m_TagString: Video
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7511,7 +7511,7 @@ GameObject:
   - component: {fileID: 2099645856}
   m_Layer: 0
   m_Name: VideoPlayer2
-  m_TagString: Untagged
+  m_TagString: Video
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
