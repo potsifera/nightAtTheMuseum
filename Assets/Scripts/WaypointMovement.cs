@@ -12,6 +12,10 @@ public class WaypointMovement : MonoBehaviour {
 	public float maxMoveDistance = 10;
 	private bool moving = false;
 
+	private GameObject atmosphericAudio;
+	private AudioSource aAudio;
+
+
 	// Use this for initialization
 	void Start () {
 	
@@ -35,6 +39,14 @@ public class WaypointMovement : MonoBehaviour {
 			player.transform.position = new Vector3 (waypoint.transform.position.x, 
                 waypoint.transform.position.y + height / 2, 
                 waypoint.transform.position.z);
+		}
+
+		//if atmospheric audio has stopped play when  moving to another waypoint
+		atmosphericAudio = GameObject.Find ("AtmosphericAudio");
+		aAudio = atmosphericAudio.GetComponent (typeof(AudioSource)) as AudioSource;
+
+		if (!aAudio.isPlaying) {
+			aAudio.Play ();
 		}
 	}
 
