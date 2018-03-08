@@ -8,5 +8,7 @@ Unity 2017.2.0f3
 # Main Scene
 The Main scene is located in Assets/Scenes/Main
 
-#Writeup Link
+# Writeup Link
 http://gracemontoya.com/portfolio/vr-app-night-museum/
+
+![Screenshot](screenshot.jpg)
